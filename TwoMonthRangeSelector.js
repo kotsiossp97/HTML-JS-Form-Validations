@@ -1,3 +1,32 @@
+$('#monthStart').on('change', function(){
+    var selectedValue = this.value;
+    var prevVal = parseInt(selectedValue)-1;
+    if(prevVal<=0){
+    	prevVal+=12;
+    }
+    
+    if(prevVal<10){
+    	prevVal = "0"+prevVal;
+    }
+    
+    $("#monthEnd option[value='"+selectedValue+"']").remove();
+    $('#monthEnd2 option[value="'+prevVal+'"]').attr('selected','selected');
+});
+
+$('#monthEnd').on('change', function(){
+    var selectedValue = this.value;
+    var nextVal = parseInt(selectedValue)+1;
+    
+    if(nextVal>12){
+    	nextVal-=12;
+    }
+    if(nextVal<10){
+    	nextVal = "0"+nextVal;
+    }
+    $('#monthStart2 option[value="'+nextVal+'"]').attr('selected','selected');
+});
+
+
 //HTML
 // <select name="monthStart" id="monthStart"  class="datefield month">
 //     <option value="">Month</option>
@@ -64,32 +93,3 @@
 //     <option value="11">Nov</option>
 //     <option value="12">Dec</option>
 // </select>
-
-
-$('#monthStart').on('change', function(){
-    var selectedValue = this.value;
-    var prevVal = parseInt(selectedValue)-1;
-    if(prevVal<=0){
-    	prevVal+=12;
-    }
-    
-    if(prevVal<10){
-    	prevVal = "0"+prevVal;
-    }
-    
-    $("#monthEnd option[value='"+selectedValue+"']").remove();
-    $('#monthEnd2 option[value="'+prevVal+'"]').attr('selected','selected');
-});
-
-$('#monthEnd').on('change', function(){
-    var selectedValue = this.value;
-    var nextVal = parseInt(selectedValue)+1;
-    
-    if(nextVal>12){
-    	nextVal-=12;
-    }
-    if(nextVal<10){
-    	nextVal = "0"+nextVal;
-    }
-    $('#monthStart2 option[value="'+nextVal+'"]').attr('selected','selected');
-});
