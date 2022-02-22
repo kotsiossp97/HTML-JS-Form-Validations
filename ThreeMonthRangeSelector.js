@@ -69,103 +69,103 @@ $("#monthEnd2").on("change", function(){
 
 
 //***************  HTML  ******************
-// <select name="monthStart" id="monthStart">
-//     <option value="">Month</option>
-//     <option value="01">Jan</option>
-//     <option value="02">Feb</option>
-//     <option value="03">Mar</option>
-//     <option value="04">Apr</option>
-//     <option value="05">May</option>
-//     <option value="06">Jun</option>
-//     <option value="07">Jul</option>
-//     <option value="08">Aug</option>
-//     <option value="09">Sep</option>
-//     <option value="10">Oct</option>
-//     <option value="11">Nov</option>
-//     <option value="12">Dec</option>
-// </select>
+<select name="monthStart" id="monthStart">
+    <option value="">Month</option>
+    <option value="01">Jan</option>
+    <option value="02">Feb</option>
+    <option value="03">Mar</option>
+    <option value="04">Apr</option>
+    <option value="05">May</option>
+    <option value="06">Jun</option>
+    <option value="07">Jul</option>
+    <option value="08">Aug</option>
+    <option value="09">Sep</option>
+    <option value="10">Oct</option>
+    <option value="11">Nov</option>
+    <option value="12">Dec</option>
+</select>
 
-// <select name="monthEnd" id="monthEnd">
-//     <option value="">Month</option>
-//     <option value="01">Jan</option>
-//     <option value="02">Feb</option>
-//     <option value="03">Mar</option>
-//     <option value="04">Apr</option>
-//     <option value="05">May</option>
-//     <option value="06">Jun</option>
-//     <option value="07">Jul</option>
-//     <option value="08">Aug</option>
-//     <option value="09">Sep</option>
-//     <option value="10">Oct</option>
-//     <option value="11">Nov</option>
-//     <option value="12">Dec</option>
-// </select>
-// <br>
-// <br>
-// <br>
-// <select name="monthStart2" id="monthStart2"  class="datefield month" disabled>
-//     <option value="">Month</option>
-//     <option value="01">Jan</option>
-//     <option value="02">Feb</option>
-//     <option value="03">Mar</option>
-//     <option value="04">Apr</option>
-//     <option value="05">May</option>
-//     <option value="06">Jun</option>
-//     <option value="07">Jul</option>
-//     <option value="08">Aug</option>
-//     <option value="09">Sep</option>
-//     <option value="10">Oct</option>
-//     <option value="11">Nov</option>
-//     <option value="12">Dec</option>
-// </select>
+<select name="monthEnd" id="monthEnd">
+    <option value="">Month</option>
+    <option value="01">Jan</option>
+    <option value="02">Feb</option>
+    <option value="03">Mar</option>
+    <option value="04">Apr</option>
+    <option value="05">May</option>
+    <option value="06">Jun</option>
+    <option value="07">Jul</option>
+    <option value="08">Aug</option>
+    <option value="09">Sep</option>
+    <option value="10">Oct</option>
+    <option value="11">Nov</option>
+    <option value="12">Dec</option>
+</select>
+<br>
+<br>
+<br>
+<select name="monthStart2" id="monthStart2"  class="datefield month" disabled>
+    <option value="">Month</option>
+    <option value="01">Jan</option>
+    <option value="02">Feb</option>
+    <option value="03">Mar</option>
+    <option value="04">Apr</option>
+    <option value="05">May</option>
+    <option value="06">Jun</option>
+    <option value="07">Jul</option>
+    <option value="08">Aug</option>
+    <option value="09">Sep</option>
+    <option value="10">Oct</option>
+    <option value="11">Nov</option>
+    <option value="12">Dec</option>
+</select>
 
-// <select name="monthEnd2" id="monthEnd2"  class="datefield month">
-//     <option value="">Month</option>
-//     <option value="01">Jan</option>
-//     <option value="02">Feb</option>
-//     <option value="03">Mar</option>
-//     <option value="04">Apr</option>
-//     <option value="05">May</option>
-//     <option value="06">Jun</option>
-//     <option value="07">Jul</option>
-//     <option value="08">Aug</option>
-//     <option value="09">Sep</option>
-//     <option value="10">Oct</option>
-//     <option value="11">Nov</option>
-//     <option value="12">Dec</option>
-// </select>
+<select name="monthEnd2" id="monthEnd2"  class="datefield month">
+    <option value="">Month</option>
+    <option value="01">Jan</option>
+    <option value="02">Feb</option>
+    <option value="03">Mar</option>
+    <option value="04">Apr</option>
+    <option value="05">May</option>
+    <option value="06">Jun</option>
+    <option value="07">Jul</option>
+    <option value="08">Aug</option>
+    <option value="09">Sep</option>
+    <option value="10">Oct</option>
+    <option value="11">Nov</option>
+    <option value="12">Dec</option>
+</select>
 
-// <br>
-// <br>
-// <br>
-// <select name="monthStart3" id="monthStart3"  class="datefield month" disabled>
-//     <option value="">Month</option>
-//     <option value="01">Jan</option>
-//     <option value="02">Feb</option>
-//     <option value="03">Mar</option>
-//     <option value="04">Apr</option>
-//     <option value="05">May</option>
-//     <option value="06">Jun</option>
-//     <option value="07">Jul</option>
-//     <option value="08">Aug</option>
-//     <option value="09">Sep</option>
-//     <option value="10">Oct</option>
-//     <option value="11">Nov</option>
-//     <option value="12">Dec</option>
-// </select>
+<br>
+<br>
+<br>
+<select name="monthStart3" id="monthStart3"  class="datefield month" disabled>
+    <option value="">Month</option>
+    <option value="01">Jan</option>
+    <option value="02">Feb</option>
+    <option value="03">Mar</option>
+    <option value="04">Apr</option>
+    <option value="05">May</option>
+    <option value="06">Jun</option>
+    <option value="07">Jul</option>
+    <option value="08">Aug</option>
+    <option value="09">Sep</option>
+    <option value="10">Oct</option>
+    <option value="11">Nov</option>
+    <option value="12">Dec</option>
+</select>
 
-// <select name="monthEnd3" id="monthEnd3"  class="datefield month" disabled>
-//     <option value="">Month</option>
-//     <option value="01">Jan</option>
-//     <option value="02">Feb</option>
-//     <option value="03">Mar</option>
-//     <option value="04">Apr</option>
-//     <option value="05">May</option>
-//     <option value="06">Jun</option>
-//     <option value="07">Jul</option>
-//     <option value="08">Aug</option>
-//     <option value="09">Sep</option>
-//     <option value="10">Oct</option>
-//     <option value="11">Nov</option>
-//     <option value="12">Dec</option>
-// </select>
+<select name="monthEnd3" id="monthEnd3"  class="datefield month" disabled>
+    <option value="">Month</option>
+    <option value="01">Jan</option>
+    <option value="02">Feb</option>
+    <option value="03">Mar</option>
+    <option value="04">Apr</option>
+    <option value="05">May</option>
+    <option value="06">Jun</option>
+    <option value="07">Jul</option>
+    <option value="08">Aug</option>
+    <option value="09">Sep</option>
+    <option value="10">Oct</option>
+    <option value="11">Nov</option>
+    <option value="12">Dec</option>
+</select>
